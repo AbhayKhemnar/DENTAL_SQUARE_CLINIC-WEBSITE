@@ -1,0 +1,9 @@
+<svg width="420" height="140" viewBox="0 0 420 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="420" height="140" rx="18" fill="#0B2F66"/>
+  <rect x="24" y="22" width="96" height="96" rx="14" fill="white"/>
+  <path d="M72 43C63 31 42 37 42 58C42 77 55 94 63 104C67 109 72 106 72 100C72 106 77 109 81 104C89 94 102 77 102 58C102 37 81 31 72 43Z" fill="#0B2F66"/>
+  <path d="M50 34H60V42H50V34ZM36 44H44V52H36V44ZM52 54H60V62H52V54Z" fill="#F97316"/>
+  <text x="142" y="65" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="800" letter-spacing="2">DENTAL</text>
+  <text x="142" y="98" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" letter-spacing="6">SQUARE</text>
+  <path d="M142 78H376" stroke="#F97316" stroke-width="3" stroke-linecap="round"/>
+</svg>

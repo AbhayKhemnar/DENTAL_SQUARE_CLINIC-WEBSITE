@@ -1,0 +1,10 @@
+{
+  "name": "dental-square-workspace",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix Dental_Square_code run dev",
+    "build": "npm --prefix Dental_Square_code run build",
+    "lint": "npm --prefix Dental_Square_code run lint",
+    "preview": "npm --prefix Dental_Square_code run preview"
+  }
+}
