@@ -5,7 +5,7 @@ import { equipmentImage } from '../data/assets'
 
 const highlights = [
   { title: 'Modern equipment', text: 'Digital-friendly workflows and advanced chairside support for everyday dentistry.', icon: FaClinicMedical },
-  { title: 'Experienced care', text: 'Clear consultation, treatment planning, and follow-up guidance at every step.', icon: FaRegSmile },
+  { title: 'Experienced care', text: 'Clear consultation, treatment planning, and follow-up guidance from your dentist in Moshi.', icon: FaRegSmile },
   { title: 'Patient focused', text: 'Comfort-led appointments with attention to hygiene, safety, and trust.', icon: FaShieldAlt },
 ]
 
@@ -15,8 +15,8 @@ function AboutClinic() {
       <div className="section-shell">
         <SectionHeader
           eyebrow="About the clinic"
-          title="A clean, modern space for complete dental care."
-          text="Dental Square brings multi-speciality dental services and aesthetic care together in Moshi, with a focus on practical treatment plans and a reassuring clinical experience."
+          title="A clean, modern dental clinic in Moshi."
+          text="Perfect Smile Dental Clinic provides general dentistry, cosmetic dental care, root canal treatment, whitening, braces, implants, and smile designing for patients in Moshi, PCMC, and Pune."
         />
         <div className="mt-12 grid gap-8 lg:grid-cols-[0.95fr_1.05fr]">
           <motion.div
@@ -29,7 +29,7 @@ function AboutClinic() {
             <img
               className="h-[300px] w-full object-cover sm:h-full sm:min-h-[320px]"
               src={equipmentImage?.src}
-              alt="Modern clinic equipment at Dental Square"
+              alt="Perfect Smile Dental Clinic Moshi Pune"
               loading="lazy"
             />
           </motion.div>
@@ -44,7 +44,7 @@ function AboutClinic() {
                 transition={{ duration: 0.45, delay: index * 0.08 }}
               >
                 <div className="flex gap-4">
-                  <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-md bg-blue-50 text-xl text-blue-700">
+                  <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-md bg-amber-50 text-xl text-amber-700">
                     <item.icon />
                   </span>
                   <div>

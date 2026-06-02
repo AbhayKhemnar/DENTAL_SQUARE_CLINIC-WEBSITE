@@ -10,13 +10,13 @@ function Navbar() {
   return (
     <header className="sticky top-0 z-50 border-b border-slate-200/80 bg-white/95 backdrop-blur">
       <nav className="section-shell flex min-h-16 items-center justify-between gap-3 py-2 sm:min-h-20 sm:gap-4">
-        <a className="focus-ring flex min-w-0 items-center gap-2 rounded-md sm:gap-3" href="#home" aria-label="Dental Square home">
-          <img className="h-10 w-10 shrink-0 object-contain sm:h-12 sm:w-12" src={brandLogo} alt="Dental Square logo" />
+        <a className="focus-ring flex min-w-0 items-center gap-2 rounded-md sm:gap-3" href="#home" aria-label="Perfect Smile Dental Clinic home">
+          <img className="h-10 w-10 shrink-0 object-contain sm:h-12 sm:w-12" src={brandLogo} alt="Perfect Smile Dental Clinic logo" />
           <span className="min-w-0 leading-tight">
             <span className="block text-sm font-black uppercase tracking-wide text-slate-950 sm:text-lg">
-              Dental Square
+              Perfect Smile
             </span>
-            <span className="hidden text-[11px] font-bold uppercase tracking-[0.16em] text-blue-700 sm:block">
+            <span className="hidden text-[11px] font-bold uppercase tracking-[0.16em] text-amber-700 sm:block">
               Dental Clinic
             </span>
           </span>
@@ -24,7 +24,7 @@ function Navbar() {
 
         <div className="hidden items-center gap-7 lg:flex">
           {navLinks.map((link) => (
-            <a key={link.href} className="text-sm font-bold text-slate-700 transition hover:text-blue-700" href={link.href}>
+            <a key={link.href} className="text-sm font-bold text-slate-700 transition hover:text-amber-700" href={link.href}>
               {link.label}
             </a>
           ))}
@@ -51,7 +51,7 @@ function Navbar() {
             {navLinks.map((link) => (
               <a
                 key={link.href}
-                className="rounded-md px-2 py-3 text-sm font-bold text-slate-700 hover:bg-blue-50 hover:text-blue-700"
+                className="rounded-md px-2 py-3 text-sm font-bold text-slate-700 hover:bg-amber-50 hover:text-amber-700"
                 href={link.href}
                 onClick={() => setOpen(false)}
               >

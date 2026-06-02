@@ -1,4 +1,4 @@
-import logo from '../assets/logo/logo.png'
+import logo from '../assets/logo/perfect-smile-logo.svg'
 
 const photoModules = import.meta.glob('../assets/photos/*.{jpg,jpeg,png,webp,jfif,svg}', {
   eager: true,
@@ -20,20 +20,17 @@ export const galleryImages = Object.entries(galleryModules).map(([path, src]) =>
   name: path.split('/').pop().replace(/\.[^.]+$/, '').replaceAll('_', ' '),
 }))
 
-export const hydraImages = allPhotoImages.filter((image) =>
-  image.name.toLowerCase().includes('hydra'),
-)
-
 export const clinicImages = allPhotoImages.filter((image) =>
-  image.name.toLowerCase().includes('shop'),
+  image.name.toLowerCase().includes('perfect-smile-dental-clinic-moshi-pune'),
 )
 
 export const doctorImage = allPhotoImages.find((image) =>
-  image.name.toLowerCase().includes('doctor-female-real'),
+  image.name.toLowerCase().includes('dr-prradnya-uttarwar-dentist-moshi'),
 )
 
 export const equipmentImage =
-  allPhotoImages.find((image) => image.name.toLowerCase().includes('hydra facail machine 2')) ||
-  hydraImages[0]
+  allPhotoImages.find((image) =>
+    image.name.toLowerCase().includes('perfect-smile-dental-clinic-equipment-moshi'),
+  )
 
 export const brandLogo = logo

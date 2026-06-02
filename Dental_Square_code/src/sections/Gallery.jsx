@@ -21,13 +21,13 @@ function Gallery() {
       <div className="section-shell">
         <SectionHeader
           eyebrow="Gallery"
-          title="A closer look at Dental Square."
+          title="Smile gallery."
           text="Treatment result images from the clinic gallery are presented as clean preview cards."
         />
         <div className="mt-10 grid gap-4 sm:mt-12 sm:grid-cols-2 sm:gap-6 lg:grid-cols-3">
           {galleryImages.map((image, index) => (
             <motion.button
-              className="focus-ring block overflow-hidden rounded-md bg-white p-3 text-left shadow-sm ring-1 ring-slate-200 transition hover:-translate-y-1 hover:shadow-xl hover:shadow-blue-100/70"
+              className="focus-ring block overflow-hidden rounded-md bg-white p-3 text-left shadow-sm ring-1 ring-slate-200 transition hover:-translate-y-1 hover:shadow-xl hover:shadow-amber-100/70"
               type="button"
               key={image.src}
               onClick={() => setActiveImage(image)}
@@ -39,7 +39,7 @@ function Gallery() {
               <img
                 className="aspect-[4/3] w-full rounded-md object-cover"
                 src={image.src}
-                alt="Dental Square gallery result"
+                alt="Perfect Smile Dental Clinic Moshi Pune"
                 loading="lazy"
               />
             </motion.button>
@@ -65,7 +65,7 @@ function Gallery() {
           <img
             className="max-h-[82vh] max-w-[94vw] rounded-md object-contain sm:max-h-[86vh] sm:max-w-[95vw]"
             src={activeImage.src}
-            alt="Dental Square gallery result preview"
+            alt="Perfect Smile Dental Clinic Moshi Pune gallery preview"
             onClick={(event) => event.stopPropagation()}
           />
         </div>

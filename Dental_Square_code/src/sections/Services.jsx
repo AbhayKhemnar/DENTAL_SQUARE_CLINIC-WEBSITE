@@ -8,20 +8,20 @@ function Services() {
       <div className="section-shell">
         <SectionHeader
           eyebrow="Dental services"
-          title="Complete care for everyday and advanced dental needs."
-          text="From preventive checkups to cosmetic dentistry, each service is presented with clear consultation and practical next steps."
+          title="Dental services for healthy, confident smiles."
+          text="From preventive dental checkups to root canal treatment in Moshi, dental implants, braces, teeth whitening, and smile designing, care is planned around comfort and long-term oral health."
         />
         <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {services.map((service, index) => (
             <motion.article
-              className="group rounded-md border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-xl hover:shadow-blue-100/70"
+              className="group rounded-md border border-amber-100 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-xl hover:shadow-amber-100/70"
               key={service.title}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.25 }}
               transition={{ duration: 0.45, delay: index * 0.04 }}
             >
-              <div className="flex h-13 w-13 items-center justify-center rounded-md bg-blue-50 text-2xl text-blue-700 transition group-hover:bg-blue-700 group-hover:text-white">
+              <div className="flex h-13 w-13 items-center justify-center rounded-md bg-amber-50 text-2xl text-amber-700 transition group-hover:bg-amber-700 group-hover:text-white">
                 <service.icon />
               </div>
               <h3 className="mt-5 text-xl font-extrabold text-slate-950">{service.title}</h3>

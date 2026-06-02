@@ -5,8 +5,8 @@ export default {
     extend: {
       colors: {
         brand: {
-          blue: '#0b63ce',
-          navy: '#0b2f66',
+          gold: '#b7791f',
+          dark: '#111827',
           gray: '#64748b',
         },
       },

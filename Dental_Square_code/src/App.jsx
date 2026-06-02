@@ -3,7 +3,6 @@ import Hero from './sections/Hero'
 import AboutClinic from './sections/AboutClinic'
 import AboutDoctor from './sections/AboutDoctor'
 import Services from './sections/Services'
-import HydraFacial from './sections/HydraFacial'
 import WhyChooseUs from './sections/WhyChooseUs'
 import Gallery from './sections/Gallery'
 import Testimonials from './sections/Testimonials'
@@ -21,7 +20,6 @@ function App() {
         <AboutClinic />
         <AboutDoctor />
         <Services />
-        <HydraFacial />
         <WhyChooseUs />
         <Gallery />
         <Testimonials />

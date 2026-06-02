@@ -37,7 +37,7 @@ img {
 }
 
 .section-eyebrow {
-  color: #0b63ce;
+  color: #b7791f;
   font-size: 0.78rem;
   font-weight: 800;
   letter-spacing: 0.12em;
@@ -63,5 +63,5 @@ img {
 }
 
 .focus-ring:focus-visible {
-  box-shadow: 0 0 0 4px rgba(11, 99, 206, 0.18);
+  box-shadow: 0 0 0 4px rgba(183, 121, 31, 0.2);
 }
