@@ -43,12 +43,12 @@ function AboutDoctor() {
               <div className="rounded-md bg-slate-50 p-5">
                 <FaCertificate className="text-2xl text-amber-700" />
                 <h4 className="mt-4 font-extrabold text-slate-950">Qualification</h4>
-                <p className="mt-2 text-sm leading-6 text-slate-600">BDS , MBA - HAHM , FFO IFSCFO </p>
+                <p className="mt-2 text-sm leading-6 text-slate-600">{clinic.qualification}</p>
               </div>
               <div className="rounded-md bg-slate-50 p-5">
                 <FaUserMd className="text-2xl text-amber-700" />
                 <h4 className="mt-4 font-extrabold text-slate-950">Experience</h4>
-                <p className="mt-2 text-sm leading-6 text-slate-600">5+ years experience </p>
+                <p className="mt-2 text-sm leading-6 text-slate-600">{clinic.experience}</p>
               </div>
             </div>
           </motion.div>

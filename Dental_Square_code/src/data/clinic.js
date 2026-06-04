@@ -27,7 +27,9 @@ export const clinic = {
   mapsHref: 'https://maps.app.goo.gl/MwNSnAtfu99KYANq6',
   address:
     'Shop no 7, Anushka Co-operative Housing Society, old, Alandi - Moshi Rd, Moshi, Maharashtra 411070',
-  hours: 'Open daily. Google listing shows open until 9:00 PM.',
+  hours: 'Morning 9:30 AM to 2:00 PM, Evening 5:30 PM to 9:00 PM',
+  qualification: 'BDS, GDC (Mumbai), Implantologist',
+  experience: '16+ Years',
   rating: '4.9',
   mapEmbed:
     'https://www.google.com/maps?q=Perfect%20Smile%20Dental%20Clinic%2C%20Shop%20no%207%2C%20Anushka%20Co-operative%20Housing%20Society%2C%20old%2C%20Alandi%20-%20Moshi%20Rd%2C%20Moshi%2C%20Maharashtra%20411070&output=embed',
@@ -45,13 +47,23 @@ export const navLinks = [
 export const services = [
   { title: 'Dental Checkup', text: 'Routine dental care from a trusted dental clinic in Moshi for adults and families.', icon: FaTooth },
   { title: 'Teeth Cleaning', text: 'Ultrasonic scaling and polishing for cleaner teeth and healthier gums.', icon: MdOutlineCleanHands },
-  { title: 'Teeth Whitening in Moshi', text: 'Professional whitening support for a brighter, more confident smile.', icon: FaRegSmile },
+  { title: 'Tooth Whitening and Bleaching', text: 'Professional teeth whitening in Moshi for a brighter, more confident smile.', icon: FaRegSmile },
   { title: 'Root Canal Treatment in Moshi', text: 'Tooth-saving root canal care planned for comfort and long-term function.', icon: FaXRay },
   { title: 'Dental Implants in Moshi', text: 'Natural-looking replacement options for missing teeth and restored chewing comfort.', icon: FaTeeth },
-  { title: 'Braces & Aligners', text: 'Orthodontic solutions to improve bite, alignment, and smile symmetry.', icon: FaBrush },
+  { title: 'Orthodontics (Braces)', text: 'Orthodontic solutions to improve bite, alignment, and smile symmetry.', icon: FaBrush },
   { title: 'Tooth Extraction', text: 'Careful tooth removal with clear guidance before and after treatment.', icon: MdHealthAndSafety },
   { title: 'Family Dentist in Moshi', text: 'General dental care for children, adults, and families in PCMC and Pune.', icon: FaBaby },
-  { title: 'Smile Designing', text: 'Cosmetic dentistry and smile designing for natural, confident results.', icon: FaStar },
+  { title: 'Cosmetic Dentistry and Smile Designing', text: 'Cosmetic dentistry and smile designing for natural, confident results.', icon: FaStar },
+  { title: 'Wisdom Tooth Surgery', text: 'Evaluation and surgical care for painful, impacted, or problematic wisdom teeth.', icon: MdHealthAndSafety },
+  { title: 'Gum Surgery', text: 'Periodontal care and gum surgery for improved oral health and long-term tooth support.', icon: FaShieldAlt },
+  { title: 'Crowns and Bridges', text: 'Strong, natural-looking crowns and bridges to restore damaged or missing teeth.', icon: FaTeeth },
+  { title: 'Complete Dentures', text: 'Comfort-focused complete dentures for restoring chewing ability and facial support.', icon: FaRegSmile },
+  { title: 'Laminates', text: 'Aesthetic dental laminates for smile enhancement and improved tooth appearance.', icon: FaStar },
+  { title: 'Post and Core', text: 'Post and core restorations to rebuild weakened teeth before crowns.', icon: FaTooth },
+  { title: 'Cast Partial Denture', text: 'Durable cast partial dentures for replacing multiple missing teeth.', icon: FaTeeth },
+  { title: 'SDF Treatment in Children', text: 'Silver diamine fluoride treatment for decay prevention and pediatric dental protection.', icon: FaBaby },
+  { title: 'Pediatric Dental Treatment', text: 'Gentle dental treatment for children, including preventive and restorative care.', icon: FaBaby },
+  { title: 'Fluoride Treatments', text: 'Preventive fluoride applications to strengthen enamel and reduce cavity risk.', icon: MdOutlineCleanHands },
 ]
 
 export const whyChooseUs = [

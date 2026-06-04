@@ -27,10 +27,11 @@ function Hero() {
             <div>
               <p className="text-xs font-extrabold uppercase tracking-wider text-amber-700">Doctor</p>
               <p className="mt-1 font-bold text-slate-950">{clinic.doctor}</p>
+              <p className="mt-1 text-sm font-semibold text-slate-600">{clinic.qualification}</p>
             </div>
             <div>
-              <p className="text-xs font-extrabold uppercase tracking-wider text-amber-700">Google Rating</p>
-              <p className="mt-1 font-bold text-slate-950">{clinic.rating} Stars</p>
+              <p className="text-xs font-extrabold uppercase tracking-wider text-amber-700">Clinic Timing</p>
+              <p className="mt-1 font-bold text-slate-950">{clinic.hours}</p>
             </div>
           </div>
 
