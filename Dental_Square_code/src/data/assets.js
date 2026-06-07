@@ -25,7 +25,7 @@ export const clinicImages = allPhotoImages.filter((image) =>
 )
 
 export const doctorImage = allPhotoImages.find((image) =>
-  image.name.toLowerCase().includes('dr-prradnya-uttarwar-dentist-moshi'),
+  image.name.toLowerCase().includes('dr-prradnya-uttarwar-perfect-smile-dental-clinic'),
 )
 
 export const equipmentImage =
