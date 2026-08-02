@@ -6,16 +6,16 @@ import { doctorImage } from '../data/assets'
 
 function AboutDoctor() {
   return (
-    <section id="about-doctor" className="bg-gradient-to-br from-white via-slate-50 to-blue-50/60 py-16 sm:py-24">
+    <section id="about-doctor" className="bg-gradient-to-br from-white via-amber-50/35 to-stone-50 py-16 sm:py-24">
       <div className="section-shell">
         <SectionHeader
           eyebrow="About doctor"
           title="Care led by Dr. Prradnya Uttarwar."
           text="Meet the dentist behind Perfect Smile Dental Clinic, offering patient-focused dental care in Moshi with clear treatment planning and comfortable appointments."
         />
-        <div className="mt-12 grid items-center gap-8 rounded-2xl border border-slate-200/80 bg-white/85 p-4 shadow-xl shadow-slate-200/70 backdrop-blur sm:gap-10 sm:p-6 lg:grid-cols-[0.9fr_1.1fr] lg:gap-14 lg:p-10">
+        <div className="mt-12 grid items-center gap-8 rounded-2xl border border-amber-100/80 bg-white/90 p-4 shadow-xl shadow-amber-100/60 backdrop-blur sm:gap-10 sm:p-6 lg:grid-cols-[0.9fr_1.1fr] lg:gap-14 lg:p-10">
           <motion.div
-            className="group overflow-hidden rounded-2xl border border-blue-100/80 bg-gradient-to-br from-white via-slate-50 to-blue-50 p-3 shadow-xl shadow-slate-300/50 transition-all duration-500 hover:scale-[1.03] hover:border-blue-200 hover:shadow-2xl hover:shadow-blue-200/60"
+            className="group overflow-hidden rounded-2xl border border-amber-100/90 bg-gradient-to-br from-white via-amber-50/50 to-stone-100 p-3 shadow-xl shadow-amber-200/40 transition-all duration-500 hover:scale-[1.03] hover:border-amber-300 hover:shadow-2xl hover:shadow-amber-200/70"
             initial={{ opacity: 0, scale: 0.96 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true, amount: 0.4 }}
@@ -36,7 +36,7 @@ function AboutDoctor() {
             viewport={{ once: true, amount: 0.4 }}
             transition={{ duration: 0.55 }}
           >
-            <p className="text-sm font-extrabold uppercase tracking-[0.16em] text-blue-700">Principal Dentist</p>
+            <p className="text-sm font-extrabold uppercase tracking-[0.16em] text-amber-700">Principal Dentist</p>
             <h3 className="mt-4 text-3xl font-black leading-tight text-slate-950 sm:text-4xl lg:text-5xl">
               {clinic.doctor}
             </h3>
@@ -44,9 +44,9 @@ function AboutDoctor() {
               Dr. Prradnya Uttarwar provides thoughtful dental consultations, preventive care, and treatment planning for patients looking for a dentist in Moshi, PCMC, and Pune.
             </p>
             <div className="mt-8 grid gap-5 sm:grid-cols-2">
-              <div className="group/card rounded-2xl border border-slate-200 bg-gradient-to-br from-white to-blue-50/80 p-6 shadow-md shadow-slate-200/70 transition-all duration-500 hover:-translate-y-1 hover:border-blue-200 hover:shadow-xl hover:shadow-blue-100/80">
+              <div className="group/card rounded-2xl border border-amber-100 bg-gradient-to-br from-white to-amber-50/80 p-6 shadow-md shadow-amber-100/80 transition-all duration-500 hover:-translate-y-1 hover:border-amber-300 hover:shadow-xl hover:shadow-amber-100">
                 <div className="flex items-center gap-4">
-                  <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-blue-700 text-xl text-white shadow-lg shadow-blue-700/20 transition-all duration-500 group-hover/card:scale-110">
+                  <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-amber-700 text-xl text-white shadow-lg shadow-amber-700/25 transition-all duration-500 group-hover/card:scale-110 group-hover/card:bg-amber-800">
                     <FaCertificate />
                   </span>
                   <div>
@@ -55,9 +55,9 @@ function AboutDoctor() {
                   </div>
                 </div>
               </div>
-              <div className="group/card rounded-2xl border border-slate-200 bg-gradient-to-br from-white to-slate-50 p-6 shadow-md shadow-slate-200/70 transition-all duration-500 hover:-translate-y-1 hover:border-blue-200 hover:shadow-xl hover:shadow-blue-100/80">
+              <div className="group/card rounded-2xl border border-amber-100 bg-gradient-to-br from-white to-stone-50 p-6 shadow-md shadow-amber-100/70 transition-all duration-500 hover:-translate-y-1 hover:border-amber-300 hover:shadow-xl hover:shadow-amber-100">
                 <div className="flex items-center gap-4">
-                  <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-slate-900 text-xl text-white shadow-lg shadow-slate-900/20 transition-all duration-500 group-hover/card:scale-110">
+                  <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-slate-950 text-xl text-amber-100 shadow-lg shadow-slate-900/20 ring-1 ring-amber-200/20 transition-all duration-500 group-hover/card:scale-110 group-hover/card:text-white">
                     <FaUserMd />
                   </span>
                   <div>

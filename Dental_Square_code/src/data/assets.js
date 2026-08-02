@@ -1,11 +1,11 @@
 import logo from '../assets/logo/perfect-smile-logo.svg'
 
-const photoModules = import.meta.glob('../assets/photos/*.{jpg,jpeg,png,webp,jfif,svg}', {
+const photoModules = import.meta.glob('../assets/photos/*.{jpg,jpeg,png,webp,jfif,svg,JPG,JPEG,PNG,WEBP,JFIF}', {
   eager: true,
   import: 'default',
 })
 
-const galleryModules = import.meta.glob('../assets/photos/gallery/*.{jpg,jpeg,png,webp,jfif}', {
+const galleryModules = import.meta.glob('../assets/photos/gallery/*.{jpg,jpeg,png,webp,jfif,JPG,JPEG,PNG,WEBP,JFIF}', {
   eager: true,
   import: 'default',
 })

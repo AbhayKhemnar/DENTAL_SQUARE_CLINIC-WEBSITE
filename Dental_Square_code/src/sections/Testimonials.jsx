@@ -1,8 +1,8 @@
 import { useRef } from 'react'
 import { motion } from 'framer-motion'
-import { FaArrowLeft, FaArrowRight, FaStar } from 'react-icons/fa'
+import { FaArrowLeft, FaArrowRight, FaGoogle, FaStar } from 'react-icons/fa'
 import SectionHeader from '../components/SectionHeader'
-import { testimonials } from '../data/clinic'
+import { clinic, testimonials } from '../data/clinic'
 
 function Testimonials() {
   const scrollerRef = useRef(null)
@@ -22,26 +22,42 @@ function Testimonials() {
             align="left"
             eyebrow="Google reviews"
             title="Patient reviews from Google Maps."
-            text="Use the arrows to browse extracted Google reviews with reviewer name, rating, and review text."
+            text="Browse patient feedback from Google Maps, or share your own experience with Perfect Smile Dental Clinic."
           />
-          <div className="flex gap-3">
-            <button
-              className="focus-ring flex h-11 w-11 items-center justify-center rounded-md border border-amber-200 bg-white text-amber-700 transition hover:bg-amber-50"
-              type="button"
-              aria-label="Scroll reviews left"
-              onClick={() => scrollReviews(-1)}
+          <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
+            <a
+              className="focus-ring inline-flex items-center justify-center gap-2 rounded-md bg-amber-700 px-5 py-3 text-sm font-extrabold text-white shadow-lg shadow-amber-700/20 transition hover:-translate-y-0.5 hover:bg-amber-800 hover:shadow-xl"
+              href={clinic.reviewHref}
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Write a Google review for Perfect Smile Dental Clinic"
             >
-              <FaArrowLeft />
-            </button>
-            <button
-              className="focus-ring flex h-11 w-11 items-center justify-center rounded-md border border-amber-200 bg-white text-amber-700 transition hover:bg-amber-50"
-              type="button"
-              aria-label="Scroll reviews right"
-              onClick={() => scrollReviews(1)}
-            >
-              <FaArrowRight />
-            </button>
+              <FaGoogle />
+              Write a Review
+            </a>
+            <div className="flex gap-3">
+              <button
+                className="focus-ring flex h-11 w-11 items-center justify-center rounded-md border border-amber-200 bg-white text-amber-700 transition hover:bg-amber-50"
+                type="button"
+                aria-label="Scroll reviews left"
+                onClick={() => scrollReviews(-1)}
+              >
+                <FaArrowLeft />
+              </button>
+              <button
+                className="focus-ring flex h-11 w-11 items-center justify-center rounded-md border border-amber-200 bg-white text-amber-700 transition hover:bg-amber-50"
+                type="button"
+                aria-label="Scroll reviews right"
+                onClick={() => scrollReviews(1)}
+              >
+                <FaArrowRight />
+              </button>
+            </div>
           </div>
+        </div>
+
+        <div className="mt-8 rounded-md border border-amber-200 bg-amber-50/70 px-5 py-4 text-sm font-semibold leading-6 text-amber-900">
+          New reviews submitted on Google Maps can be added to this website review slider during the next site update.
         </div>
 
         <div

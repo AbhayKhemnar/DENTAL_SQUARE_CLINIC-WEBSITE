@@ -2,9 +2,9 @@ import { motion } from 'framer-motion'
 import { FaCalendarCheck, FaMapMarkerAlt, FaWhatsapp } from 'react-icons/fa'
 import Button from '../components/Button'
 import { clinic } from '../data/clinic'
-import { clinicImages } from '../data/assets'
+import { clinicImages, galleryImages } from '../data/assets'
 
-const heroImage = clinicImages[0]?.src
+const heroImage = galleryImages.find((image) => image.name === '8')?.src || clinicImages[0]?.src
 
 function Hero() {
   return (
@@ -58,7 +58,7 @@ function Hero() {
             {heroImage && (
               <img
                 className="h-[300px] w-full object-cover sm:h-[430px] lg:h-[520px]"
-                 src="https://drrickdentistry.com/wp-content/uploads/2020/12/Achieve-Your-Perfect-Smile-with-Cosmetic-Dentistry-1024x683.jpeg"
+                src={heroImage}
                 alt="Perfect Smile Dental Clinic Moshi Pune"
                 loading="eager"
               />
