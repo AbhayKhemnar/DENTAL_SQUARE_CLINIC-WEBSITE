@@ -27,7 +27,7 @@ export const clinic = {
   mapsHref: 'https://maps.app.goo.gl/MwNSnAtfu99KYANq6',
   reviewHref: 'https://maps.app.goo.gl/MwNSnAtfu99KYANq6',
   address:
-    'Shop no 7, Anushka Co-operative Housing Society, old, Alandi - Moshi Rd, Moshi, Maharashtra 411070',
+    'first floor, silver skyway building, 102, old, Alandi - Moshi Rd, near ANUSHKA SOCIETY, Moshi, Maharashtra 412105 ',
   hours: ' Morning- 9:30 AM to 2:00 PM, Evening -5:30 PM to 9:00 PM , Sunday (Only Morning) ',
   qualification: 'BDS, GDC (Mumbai), Implantologist',
   experience: '16+ Years',
