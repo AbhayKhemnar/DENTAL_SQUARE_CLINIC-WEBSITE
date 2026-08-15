@@ -33,7 +33,7 @@ export const clinic = {
   experience: '16+ Years',
   rating: '4.9',
   mapEmbed:
-    'https://www.google.com/maps?q=Perfect%20Smile%20Dental%20Clinic%2C%20Shop%20no%207%2C%20Anushka%20Co-operative%20Housing%20Society%2C%20old%2C%20Alandi%20-%20Moshi%20Rd%2C%20Moshi%2C%20Maharashtra%20411070&output=embed',
+    'https://www.google.com/maps?q=Perfect%20Smile%20Dental%20Clinic%2C%20First%20floor%2C%20Silver%20Skyway%20Building%2C%20102%2C%20old%2C%20Alandi%20-%20Moshi%20Rd%2C%20near%20Anushka%20Society%2C%20Moshi%2C%20Maharashtra%20412105&output=embed',
 }
 
 export const navLinks = [
